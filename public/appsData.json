@@ -1,182 +1,512 @@
 [
   {
-    "id": 11,
-    "image": "https://play-lh.googleusercontent.com/WYx_XS-FtYRvA28uZoXvZoyqIdu9Cfh4QeEopHlL8V0V4CuPj9RzKfXoHnIhMR0i4Q=s256",
+    "id": 1,
+    "image": "https://i.ibb.co.com/GvpXgbPg/Artboard-1facebook.png",
+    "title": "Facebook",
+    "companyName": "Meta Platforms, Inc.",
+    "description": "This is line 1 of app description for Facebook.\nThis is line 2 of app description for Facebook.\nThis is line 3 of app description for Facebook.\nThis is line 4 of app description for Facebook.\nThis is line 5 of app description for Facebook.\nThis is line 6 of app description for Facebook.\nThis is line 7 of app description for Facebook.\nThis is line 8 of app description for Facebook.\nThis is line 9 of app description for Facebook.\nThis is line 10 of app description for Facebook.\nThis is line 11 of app description for Facebook.\nThis is line 12 of app description for Facebook.\nThis is line 13 of app description for Facebook.\nThis is line 14 of app description for Facebook.\nThis is line 15 of app description for Facebook.\nThis is line 16 of app description for Facebook.\nThis is line 17 of app description for Facebook.\nThis is line 18 of app description for Facebook.\nThis is line 19 of app description for Facebook.\nThis is line 20 of app description for Facebook.",
+    "size": 50,
+    "reviews": "50k",
+    "ratingAvg": 3.8,
+    "downloads": "5M",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 50
+      },
+      {
+        "name": "2 star",
+        "count": 40
+      },
+      {
+        "name": "3 star",
+        "count": 60
+      },
+      {
+        "name": "4 star",
+        "count": 80
+      },
+      {
+        "name": "5 star",
+        "count": 100
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "image": "https://i.ibb.co.com/0RcLbt2L/pngtree-instagram-icon-instagram-logo-png-image-3584853.png",
+    "title": "Instagram",
+    "companyName": "Meta Platforms, Inc.",
+    "description": "This is line 1 of app description for Instagram.\nThis is line 2 of app description for Instagram.\nThis is line 3 of app description for Instagram.\nThis is line 4 of app description for Instagram.\nThis is line 5 of app description for Instagram.\nThis is line 6 of app description for Instagram.\nThis is line 7 of app description for Instagram.\nThis is line 8 of app description for Instagram.\nThis is line 9 of app description for Instagram.\nThis is line 10 of app description for Instagram.\nThis is line 11 of app description for Instagram.\nThis is line 12 of app description for Instagram.\nThis is line 13 of app description for Instagram.\nThis is line 14 of app description for Instagram.\nThis is line 15 of app description for Instagram.\nThis is line 16 of app description for Instagram.\nThis is line 17 of app description for Instagram.\nThis is line 18 of app description for Instagram.\nThis is line 19 of app description for Instagram.\nThis is line 20 of app description for Instagram.",
+    "size": 55,
+    "reviews": "55k",
+    "ratingAvg": 3.9,
+    "downloads": "6M",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 60
+      },
+      {
+        "name": "2 star",
+        "count": 45
+      },
+      {
+        "name": "3 star",
+        "count": 68
+      },
+      {
+        "name": "4 star",
+        "count": 92
+      },
+      {
+        "name": "5 star",
+        "count": 120
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "image": "https://i.ibb.co.com/XZQvVvjM/png-clipart-android-whatsapp-computer-icons-android-android-whatsapp-messenger.png",
+    "title": "WhatsApp Messenger",
+    "companyName": "WhatsApp LLC",
+    "description": "This is line 1 of app description for WhatsApp Messenger.\nThis is line 2 of app description for WhatsApp Messenger.\nThis is line 3 of app description for WhatsApp Messenger.\nThis is line 4 of app description for WhatsApp Messenger.\nThis is line 5 of app description for WhatsApp Messenger.\nThis is line 6 of app description for WhatsApp Messenger.\nThis is line 7 of app description for WhatsApp Messenger.\nThis is line 8 of app description for WhatsApp Messenger.\nThis is line 9 of app description for WhatsApp Messenger.\nThis is line 10 of app description for WhatsApp Messenger.\nThis is line 11 of app description for WhatsApp Messenger.\nThis is line 12 of app description for WhatsApp Messenger.\nThis is line 13 of app description for WhatsApp Messenger.\nThis is line 14 of app description for WhatsApp Messenger.\nThis is line 15 of app description for WhatsApp Messenger.\nThis is line 16 of app description for WhatsApp Messenger.\nThis is line 17 of app description for WhatsApp Messenger.\nThis is line 18 of app description for WhatsApp Messenger.\nThis is line 19 of app description for WhatsApp Messenger.\nThis is line 20 of app description for WhatsApp Messenger.",
+    "size": 60,
+    "reviews": "60k",
+    "ratingAvg": 4.0,
+    "downloads": "7M",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 70
+      },
+      {
+        "name": "2 star",
+        "count": 50
+      },
+      {
+        "name": "3 star",
+        "count": 76
+      },
+      {
+        "name": "4 star",
+        "count": 104
+      },
+      {
+        "name": "5 star",
+        "count": 140
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "image": "https://i.ibb.co.com/21F0Nv4F/360-F-304060171-OUUSKIITl-OLRgn-DI1-EFO8e-SZq-OHab6-Iq.jpg",
+    "title": "YouTube",
+    "companyName": "Google LLC",
+    "description": "This is line 1 of app description for YouTube.\nThis is line 2 of app description for YouTube.\nThis is line 3 of app description for YouTube.\nThis is line 4 of app description for YouTube.\nThis is line 5 of app description for YouTube.\nThis is line 6 of app description for YouTube.\nThis is line 7 of app description for YouTube.\nThis is line 8 of app description for YouTube.\nThis is line 9 of app description for YouTube.\nThis is line 10 of app description for YouTube.\nThis is line 11 of app description for YouTube.\nThis is line 12 of app description for YouTube.\nThis is line 13 of app description for YouTube.\nThis is line 14 of app description for YouTube.\nThis is line 15 of app description for YouTube.\nThis is line 16 of app description for YouTube.\nThis is line 17 of app description for YouTube.\nThis is line 18 of app description for YouTube.\nThis is line 19 of app description for YouTube.\nThis is line 20 of app description for YouTube.",
+    "size": 65,
+    "reviews": "65k",
+    "ratingAvg": 4.1,
+    "downloads": "8M",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 80
+      },
+      {
+        "name": "2 star",
+        "count": 55
+      },
+      {
+        "name": "3 star",
+        "count": 84
+      },
+      {
+        "name": "4 star",
+        "count": 116
+      },
+      {
+        "name": "5 star",
+        "count": 160
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "image": "https://i.ibb.co.com/bR7BHjfm/png-transparent-tiktok-icon-thumbnail.png",
+    "title": "TikTok",
+    "companyName": "TikTok Pte. Ltd.",
+    "description": "This is line 1 of app description for TikTok.\nThis is line 2 of app description for TikTok.\nThis is line 3 of app description for TikTok.\nThis is line 4 of app description for TikTok.\nThis is line 5 of app description for TikTok.\nThis is line 6 of app description for TikTok.\nThis is line 7 of app description for TikTok.\nThis is line 8 of app description for TikTok.\nThis is line 9 of app description for TikTok.\nThis is line 10 of app description for TikTok.\nThis is line 11 of app description for TikTok.\nThis is line 12 of app description for TikTok.\nThis is line 13 of app description for TikTok.\nThis is line 14 of app description for TikTok.\nThis is line 15 of app description for TikTok.\nThis is line 16 of app description for TikTok.\nThis is line 17 of app description for TikTok.\nThis is line 18 of app description for TikTok.\nThis is line 19 of app description for TikTok.\nThis is line 20 of app description for TikTok.",
+    "size": 70,
+    "reviews": "70k",
+    "ratingAvg": 4.2,
+    "downloads": "9M",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 90
+      },
+      {
+        "name": "2 star",
+        "count": 60
+      },
+      {
+        "name": "3 star",
+        "count": 92
+      },
+      {
+        "name": "4 star",
+        "count": 128
+      },
+      {
+        "name": "5 star",
+        "count": 180
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "image": "https://i.ibb.co.com/tTqKP3Kn/google-mail-gmail-logo-icon-159346.png",
     "title": "Gmail",
     "companyName": "Google LLC",
-    "description": "Gmail is your secure email platform.\nSend and receive mail instantly.\nOrganize messages with labels and filters.\nGet spam protection automatically.\nAccess all Google services easily.\nSupports multiple accounts.\nAttach files, photos, and links quickly.\nOffline mode lets you read emails anytime.\nSmart compose helps write faster.\nSync across all your devices seamlessly.",
-    "size": 60,
-    "reviews": 110000000,
-    "ratingAvg": 4.3,
-    "downloads": 10000000000,
+    "description": "This is line 1 of app description for Gmail.\nThis is line 2 of app description for Gmail.\nThis is line 3 of app description for Gmail.\nThis is line 4 of app description for Gmail.\nThis is line 5 of app description for Gmail.\nThis is line 6 of app description for Gmail.\nThis is line 7 of app description for Gmail.\nThis is line 8 of app description for Gmail.\nThis is line 9 of app description for Gmail.\nThis is line 10 of app description for Gmail.\nThis is line 11 of app description for Gmail.\nThis is line 12 of app description for Gmail.\nThis is line 13 of app description for Gmail.\nThis is line 14 of app description for Gmail.\nThis is line 15 of app description for Gmail.\nThis is line 16 of app description for Gmail.\nThis is line 17 of app description for Gmail.\nThis is line 18 of app description for Gmail.\nThis is line 19 of app description for Gmail.\nThis is line 20 of app description for Gmail.",
+    "size": 75,
+    "reviews": "75k",
+    "ratingAvg": 3.8,
+    "downloads": "10M",
     "ratings": [
-      { "name": "1 star", "count": 2500000 },
-      { "name": "2 star", "count": 3500000 },
-      { "name": "3 star", "count": 8000000 },
-      { "name": "4 star", "count": 15000000 },
-      { "name": "5 star", "count": 60000000 }
+      {
+        "name": "1 star",
+        "count": 100
+      },
+      {
+        "name": "2 star",
+        "count": 65
+      },
+      {
+        "name": "3 star",
+        "count": 100
+      },
+      {
+        "name": "4 star",
+        "count": 140
+      },
+      {
+        "name": "5 star",
+        "count": 200
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "image": "https://i.ibb.co.com/CKVrkrtG/images.jpg",
+    "title": "Reddit",
+    "companyName": "Reddit Inc.",
+    "description": "This is line 1 of app description for Reddit.\nThis is line 2 of app description for Reddit.\nThis is line 3 of app description for Reddit.\nThis is line 4 of app description for Reddit.\nThis is line 5 of app description for Reddit.\nThis is line 6 of app description for Reddit.\nThis is line 7 of app description for Reddit.\nThis is line 8 of app description for Reddit.\nThis is line 9 of app description for Reddit.\nThis is line 10 of app description for Reddit.\nThis is line 11 of app description for Reddit.\nThis is line 12 of app description for Reddit.\nThis is line 13 of app description for Reddit.\nThis is line 14 of app description for Reddit.\nThis is line 15 of app description for Reddit.\nThis is line 16 of app description for Reddit.\nThis is line 17 of app description for Reddit.\nThis is line 18 of app description for Reddit.\nThis is line 19 of app description for Reddit.\nThis is line 20 of app description for Reddit.",
+    "size": 80,
+    "reviews": "80k",
+    "ratingAvg": 3.9,
+    "downloads": "11M",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 110
+      },
+      {
+        "name": "2 star",
+        "count": 70
+      },
+      {
+        "name": "3 star",
+        "count": 108
+      },
+      {
+        "name": "4 star",
+        "count": 152
+      },
+      {
+        "name": "5 star",
+        "count": 220
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "image": "https://i.ibb.co.com/bMwNdbp2/sm-5b321c9cb2d25.jpg",
+    "title": "Snapchat",
+    "companyName": "Snap Inc.",
+    "description": "This is line 1 of app description for Snapchat.\nThis is line 2 of app description for Snapchat.\nThis is line 3 of app description for Snapchat.\nThis is line 4 of app description for Snapchat.\nThis is line 5 of app description for Snapchat.\nThis is line 6 of app description for Snapchat.\nThis is line 7 of app description for Snapchat.\nThis is line 8 of app description for Snapchat.\nThis is line 9 of app description for Snapchat.\nThis is line 10 of app description for Snapchat.\nThis is line 11 of app description for Snapchat.\nThis is line 12 of app description for Snapchat.\nThis is line 13 of app description for Snapchat.\nThis is line 14 of app description for Snapchat.\nThis is line 15 of app description for Snapchat.\nThis is line 16 of app description for Snapchat.\nThis is line 17 of app description for Snapchat.\nThis is line 18 of app description for Snapchat.\nThis is line 19 of app description for Snapchat.\nThis is line 20 of app description for Snapchat.",
+    "size": 85,
+    "reviews": "85k",
+    "ratingAvg": 4.0,
+    "downloads": "12M",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 120
+      },
+      {
+        "name": "2 star",
+        "count": 75
+      },
+      {
+        "name": "3 star",
+        "count": 116
+      },
+      {
+        "name": "4 star",
+        "count": 164
+      },
+      {
+        "name": "5 star",
+        "count": 240
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "image": "https://i.ibb.co.com/MkfRgQYm/images-1.png",
+    "title": "Spotify",
+    "companyName": "Spotify Ltd.",
+    "description": "This is line 1 of app description for Spotify.\nThis is line 2 of app description for Spotify.\nThis is line 3 of app description for Spotify.\nThis is line 4 of app description for Spotify.\nThis is line 5 of app description for Spotify.\nThis is line 6 of app description for Spotify.\nThis is line 7 of app description for Spotify.\nThis is line 8 of app description for Spotify.\nThis is line 9 of app description for Spotify.\nThis is line 10 of app description for Spotify.\nThis is line 11 of app description for Spotify.\nThis is line 12 of app description for Spotify.\nThis is line 13 of app description for Spotify.\nThis is line 14 of app description for Spotify.\nThis is line 15 of app description for Spotify.\nThis is line 16 of app description for Spotify.\nThis is line 17 of app description for Spotify.\nThis is line 18 of app description for Spotify.\nThis is line 19 of app description for Spotify.\nThis is line 20 of app description for Spotify.",
+    "size": 90,
+    "reviews": "90k",
+    "ratingAvg": 4.1,
+    "downloads": "13M",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 130
+      },
+      {
+        "name": "2 star",
+        "count": 80
+      },
+      {
+        "name": "3 star",
+        "count": 124
+      },
+      {
+        "name": "4 star",
+        "count": 176
+      },
+      {
+        "name": "5 star",
+        "count": 260
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "image": "https://i.ibb.co.com/N6Q38dJN/7d44d55ead7dda48bd95632d92fb259d.jpg",
+    "title": "Twitter",
+    "companyName": "Twitter, Inc.",
+    "description": "This is line 1 of app description for Twitter.\nThis is line 2 of app description for Twitter.\nThis is line 3 of app description for Twitter.\nThis is line 4 of app description for Twitter.\nThis is line 5 of app description for Twitter.\nThis is line 6 of app description for Twitter.\nThis is line 7 of app description for Twitter.\nThis is line 8 of app description for Twitter.\nThis is line 9 of app description for Twitter.\nThis is line 10 of app description for Twitter.\nThis is line 11 of app description for Twitter.\nThis is line 12 of app description for Twitter.\nThis is line 13 of app description for Twitter.\nThis is line 14 of app description for Twitter.\nThis is line 15 of app description for Twitter.\nThis is line 16 of app description for Twitter.\nThis is line 17 of app description for Twitter.\nThis is line 18 of app description for Twitter.\nThis is line 19 of app description for Twitter.\nThis is line 20 of app description for Twitter.",
+    "size": 95,
+    "reviews": "95k",
+    "ratingAvg": 4.2,
+    "downloads": "14M",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 140
+      },
+      {
+        "name": "2 star",
+        "count": 85
+      },
+      {
+        "name": "3 star",
+        "count": 132
+      },
+      {
+        "name": "4 star",
+        "count": 188
+      },
+      {
+        "name": "5 star",
+        "count": 280
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "image": "https://i.ibb.co.com/93mWH58g/images-4.png",
+    "title": "LinkedIn",
+    "companyName": "LinkedIn Corporation",
+    "description": "This is line 1 of app description for LinkedIn.\nThis is line 2 of app description for LinkedIn.\nThis is line 3 of app description for LinkedIn.\nThis is line 4 of app description for LinkedIn.\nThis is line 5 of app description for LinkedIn.\nThis is line 6 of app description for LinkedIn.\nThis is line 7 of app description for LinkedIn.\nThis is line 8 of app description for LinkedIn.\nThis is line 9 of app description for LinkedIn.\nThis is line 10 of app description for LinkedIn.\nThis is line 11 of app description for LinkedIn.\nThis is line 12 of app description for LinkedIn.\nThis is line 13 of app description for LinkedIn.\nThis is line 14 of app description for LinkedIn.\nThis is line 15 of app description for LinkedIn.\nThis is line 16 of app description for LinkedIn.\nThis is line 17 of app description for LinkedIn.\nThis is line 18 of app description for LinkedIn.\nThis is line 19 of app description for LinkedIn.\nThis is line 20 of app description for LinkedIn.",
+    "size": 90,
+    "reviews": "45k",
+    "ratingAvg": 4.3,
+    "downloads": "7M",
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 25 },
+      { "name": "3 star", "count": 40 },
+      { "name": "4 star", "count": 80 },
+      { "name": "5 star", "count": 200 }
     ]
   },
   {
     "id": 12,
-    "image": "https://play-lh.googleusercontent.com/1OxS6NpmN2vOyxLqkzOTy8a7Q29GkgAI_UsBkuhXvM0uW1r2m4fwbZpYstbBOP9AfQ=s256",
-    "title": "Google Maps",
-    "companyName": "Google LLC",
-    "description": "Google Maps helps you navigate easily.\nFind routes for driving, walking, or transit.\nReal-time traffic and navigation updates.\nExplore restaurants, shops, and landmarks.\nOffline maps for no-internet areas.\nStreet View for 360° imagery.\nAdd reviews and share places.\nSave favorite destinations easily.\nVoice navigation makes travel simple.\nYour perfect travel companion globally.",
-    "size": 75,
-    "reviews": 125000000,
-    "ratingAvg": 4.5,
-    "downloads": 10000000000,
+    "image": "https://i.ibb.co.com/tpqnfKp1/6f5c9e854295543baad4d2d769148835.jpg",
+    "title": "Pinterest",
+    "companyName": "Pinterest, Inc.",
+    "description": "This is line 1 of app description for Pinterest.\nThis is line 2 of app description for Pinterest.\nThis is line 3 of app description for Pinterest.\nThis is line 4 of app description for Pinterest.\nThis is line 5 of app description for Pinterest.\nThis is line 6 of app description for Pinterest.\nThis is line 7 of app description for Pinterest.\nThis is line 8 of app description for Pinterest.\nThis is line 9 of app description for Pinterest.\nThis is line 10 of app description for Pinterest.\nThis is line 11 of app description for Pinterest.\nThis is line 12 of app description for Pinterest.\nThis is line 13 of app description for Pinterest.\nThis is line 14 of app description for Pinterest.\nThis is line 15 of app description for Pinterest.\nThis is line 16 of app description for Pinterest.\nThis is line 17 of app description for Pinterest.\nThis is line 18 of app description for Pinterest.\nThis is line 19 of app description for Pinterest.\nThis is line 20 of app description for Pinterest.",
+    "size": 85,
+    "reviews": "38k",
+    "ratingAvg": 4.1,
+    "downloads": "6M",
     "ratings": [
-      { "name": "1 star", "count": 1800000 },
-      { "name": "2 star", "count": 2200000 },
-      { "name": "3 star", "count": 5000000 },
-      { "name": "4 star", "count": 12000000 },
-      { "name": "5 star", "count": 55000000 }
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 15 },
+      { "name": "3 star", "count": 30 },
+      { "name": "4 star", "count": 60 },
+      { "name": "5 star", "count": 150 }
     ]
   },
   {
     "id": 13,
-    "image": "https://play-lh.googleusercontent.com/gR4Uz1uL6VuQmt7VtYYvLwx8kqcwDg8DMKp2m2PK5Z7ZzKMGkKcT4JfVBgQ8yVqX7g=s256",
-    "title": "Discord",
-    "companyName": "Discord Inc.",
-    "description": "Discord brings people together through chat.\nCreate servers for friends or communities.\nVoice, video, and text communication included.\nShare media, links, and ideas instantly.\nModeration tools for safe chatting.\nJoin global gaming and hobby groups.\nCustom emojis and bots supported.\nScreen share and streaming built-in.\nStay connected on all devices.\nThe perfect mix of fun and productivity.",
-    "size": 90,
-    "reviews": 56000000,
-    "ratingAvg": 4.6,
-    "downloads": 500000000,
+    "image": "https://i.ibb.co.com/Fk5kGV8g/images-1.jpg",
+    "title": "Snapseed",
+    "companyName": "Google LLC",
+    "description": "This is line 1 of app description for Snapseed.\nThis is line 2 of app description for Snapseed.\nThis is line 3 of app description for Snapseed.\nThis is line 4 of app description for Snapseed.\nThis is line 5 of app description for Snapseed.\nThis is line 6 of app description for Snapseed.\nThis is line 7 of app description for Snapseed.\nThis is line 8 of app description for Snapseed.\nThis is line 9 of app description for Snapseed.\nThis is line 10 of app description for Snapseed.\nThis is line 11 of app description for Snapseed.\nThis is line 12 of app description for Snapseed.\nThis is line 13 of app description for Snapseed.\nThis is line 14 of app description for Snapseed.\nThis is line 15 of app description for Snapseed.\nThis is line 16 of app description for Snapseed.\nThis is line 17 of app description for Snapseed.\nThis is line 18 of app description for Snapseed.\nThis is line 19 of app description for Snapseed.\nThis is line 20 of app description for Snapseed.",
+    "size": 75,
+    "reviews": "28k",
+    "ratingAvg": 4.5,
+    "downloads": "5M",
     "ratings": [
-      { "name": "1 star", "count": 900000 },
-      { "name": "2 star", "count": 1200000 },
-      { "name": "3 star", "count": 3000000 },
-      { "name": "4 star", "count": 7000000 },
-      { "name": "5 star", "count": 28000000 }
+      { "name": "1 star", "count": 10 },
+      { "name": "2 star", "count": 10 },
+      { "name": "3 star", "count": 20 },
+      { "name": "4 star", "count": 50 },
+      { "name": "5 star", "count": 180 }
     ]
   },
   {
     "id": 14,
-    "image": "https://play-lh.googleusercontent.com/k6I6Zg1rK7nShfOZDYHdsqD03rhU6XDJv3k7-JS1aP2M1aUe4LpcA5wAVxZ2T6sM=s256",
-    "title": "Reddit",
-    "companyName": "Reddit Inc.",
-    "description": "Reddit is a network of communities.\nJoin discussions on any topic.\nVote and comment to share your voice.\nFollow your favorite subreddits.\nPost memes, videos, and questions.\nGet real-time trending content.\nChat with people worldwide.\nCustomize your feed easily.\nModerate your own communities.\nExplore, learn, and laugh daily.",
-    "size": 80,
-    "reviews": 42000000,
-    "ratingAvg": 4.4,
-    "downloads": 500000000,
+    "image": "https://i.ibb.co.com/B2cnNs6C/ea1f0c81a827cadec45aecb6330316.webp",
+    "title": "Zoom",
+    "companyName": "Zoom Video Communications",
+    "description": "This is line 1 of app description for Zoom.\nThis is line 2 of app description for Zoom.\nThis is line 3 of app description for Zoom.\nThis is line 4 of app description for Zoom.\nThis is line 5 of app description for Zoom.\nThis is line 6 of app description for Zoom.\nThis is line 7 of app description for Zoom.\nThis is line 8 of app description for Zoom.\nThis is line 9 of app description for Zoom.\nThis is line 10 of app description for Zoom.\nThis is line 11 of app description for Zoom.\nThis is line 12 of app description for Zoom.\nThis is line 13 of app description for Zoom.\nThis is line 14 of app description for Zoom.\nThis is line 15 of app description for Zoom.\nThis is line 16 of app description for Zoom.\nThis is line 17 of app description for Zoom.\nThis is line 18 of app description for Zoom.\nThis is line 19 of app description for Zoom.\nThis is line 20 of app description for Zoom.",
+    "size": 120,
+    "reviews": "65k",
+    "ratingAvg": 4.0,
+    "downloads": "10M",
     "ratings": [
-      { "name": "1 star", "count": 700000 },
-      { "name": "2 star", "count": 900000 },
-      { "name": "3 star", "count": 2500000 },
-      { "name": "4 star", "count": 6000000 },
-      { "name": "5 star", "count": 20000000 }
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 25 },
+      { "name": "3 star", "count": 50 },
+      { "name": "4 star", "count": 90 },
+      { "name": "5 star", "count": 200 }
     ]
   },
   {
     "id": 15,
-    "image": "https://play-lh.googleusercontent.com/mq3NqFqJ1chz1L2cAyo3pMYT3e6LwVWe7oB6EBlVwHX2E1C2kHYu8zG8Fznk0Tw0Sw=s256",
-    "title": "Zoom",
-    "companyName": "Zoom Video Communications, Inc.",
-    "description": "Zoom helps you meet and collaborate online.\nHost HD video meetings anytime.\nScreen share for better teamwork.\nChat with participants during calls.\nRecord sessions for later viewing.\nVirtual backgrounds and filters included.\nSchedule meetings with calendar sync.\nSecure encryption for privacy.\nBreakout rooms for group work.\nConnect globally with ease.",
-    "size": 95,
-    "reviews": 68000000,
-    "ratingAvg": 4.3,
-    "downloads": 1000000000,
+    "image": "https://i.ibb.co.com/1fVT84tt/044a6d93-74ee-43e5-a8ce-ff076544f30f.webp",
+    "title": "Shazam",
+    "companyName": "Apple Inc.",
+    "description": "This is line 1 of app description for Shazam.\nThis is line 2 of app description for Shazam.\nThis is line 3 of app description for Shazam.\nThis is line 4 of app description for Shazam.\nThis is line 5 of app description for Shazam.\nThis is line 6 of app description for Shazam.\nThis is line 7 of app description for Shazam.\nThis is line 8 of app description for Shazam.\nThis is line 9 of app description for Shazam.\nThis is line 10 of app description for Shazam.\nThis is line 11 of app description for Shazam.\nThis is line 12 of app description for Shazam.\nThis is line 13 of app description for Shazam.\nThis is line 14 of app description for Shazam.\nThis is line 15 of app description for Shazam.\nThis is line 16 of app description for Shazam.\nThis is line 17 of app description for Shazam.\nThis is line 18 of app description for Shazam.\nThis is line 19 of app description for Shazam.\nThis is line 20 of app description for Shazam.",
+    "size": 60,
+    "reviews": "20k",
+    "ratingAvg": 4.6,
+    "downloads": "4M",
     "ratings": [
-      { "name": "1 star", "count": 1600000 },
-      { "name": "2 star", "count": 2200000 },
-      { "name": "3 star", "count": 3500000 },
-      { "name": "4 star", "count": 8000000 },
-      { "name": "5 star", "count": 29000000 }
+      { "name": "1 star", "count": 5 },
+      { "name": "2 star", "count": 5 },
+      { "name": "3 star", "count": 10 },
+      { "name": "4 star", "count": 50 },
+      { "name": "5 star", "count": 150 }
     ]
   },
   {
     "id": 16,
-    "image": "https://play-lh.googleusercontent.com/yEJ4kzV3zZ9jE8MfK9Wk3X1KFGQYDlq2AevpGgML8t5Jz6oYQxRgjk4EdTzF1NVQ0g=s256",
-    "title": "Pinterest",
-    "companyName": "Pinterest, Inc.",
-    "description": "Pinterest inspires creativity daily.\nDiscover ideas for fashion, food, and design.\nSave pins to organize projects.\nFollow creators and topics you love.\nUse image search to find similar content.\nShop items directly from pins.\nCreate mood boards and wish lists.\nExplore trending collections easily.\nShare ideas with friends.\nTurn inspiration into real action.",
-    "size": 70,
-    "reviews": 60000000,
-    "ratingAvg": 4.5,
-    "downloads": 1000000000,
+    "image": "https://i.ibb.co.com/s9KjrXZM/png-transparent-duolingo-learning-foreign-language-translation-ielts-english-grass-smiley-thumbnail.png",
+    "title": "Duolingo",
+    "companyName": "Duolingo, Inc.",
+    "description": "This is line 1 of app description for Duolingo.\nThis is line 2 of app description for Duolingo.\nThis is line 3 of app description for Duolingo.\nThis is line 4 of app description for Duolingo.\nThis is line 5 of app description for Duolingo.\nThis is line 6 of app description for Duolingo.\nThis is line 7 of app description for Duolingo.\nThis is line 8 of app description for Duolingo.\nThis is line 9 of app description for Duolingo.\nThis is line 10 of app description for Duolingo.\nThis is line 11 of app description for Duolingo.\nThis is line 12 of app description for Duolingo.\nThis is line 13 of app description for Duolingo.\nThis is line 14 of app description for Duolingo.\nThis is line 15 of app description for Duolingo.\nThis is line 16 of app description for Duolingo.\nThis is line 17 of app description for Duolingo.\nThis is line 18 of app description for Duolingo.\nThis is line 19 of app description for Duolingo.\nThis is line 20 of app description for Duolingo.",
+    "size": 80,
+    "reviews": "50k",
+    "ratingAvg": 4.7,
+    "downloads": "9M",
     "ratings": [
-      { "name": "1 star", "count": 900000 },
-      { "name": "2 star", "count": 1300000 },
-      { "name": "3 star", "count": 2500000 },
-      { "name": "4 star", "count": 7000000 },
-      { "name": "5 star", "count": 30000000 }
+      { "name": "1 star", "count": 10 },
+      { "name": "2 star", "count": 10 },
+      { "name": "3 star", "count": 20 },
+      { "name": "4 star", "count": 60 },
+      { "name": "5 star", "count": 250 }
     ]
   },
   {
     "id": 17,
-    "image": "https://play-lh.googleusercontent.com/nF1UEf9KdbmUxRrVDe4apD8kqJ4sZPDBYDhTbBq4X8mBTjZ-fD14XvKACxAdHdGfQ=s256",
-    "title": "LinkedIn",
-    "companyName": "LinkedIn Corporation",
-    "description": "LinkedIn connects professionals globally.\nBuild your digital resume easily.\nFind jobs that match your skills.\nFollow companies and industry leaders.\nShare posts, articles, and insights.\nNetwork with recruiters and peers.\nJoin groups to discuss ideas.\nTake online skill courses.\nGet personalized job alerts.\nGrow your career with connections.",
-    "size": 85,
-    "reviews": 90000000,
-    "ratingAvg": 4.3,
-    "downloads": 1000000000,
+    "image": "https://i.ibb.co.com/3YvGHG47/transparent-discord-icon-blue-circle-with-bunny-icon-no-1710882866778.webp",
+    "title": "Discord",
+    "companyName": "Discord Inc.",
+    "description": "This is line 1 of app description for Discord.\nThis is line 2 of app description for Discord.\nThis is line 3 of app description for Discord.\nThis is line 4 of app description for Discord.\nThis is line 5 of app description for Discord.\nThis is line 6 of app description for Discord.\nThis is line 7 of app description for Discord.\nThis is line 8 of app description for Discord.\nThis is line 9 of app description for Discord.\nThis is line 10 of app description for Discord.\nThis is line 11 of app description for Discord.\nThis is line 12 of app description for Discord.\nThis is line 13 of app description for Discord.\nThis is line 14 of app description for Discord.\nThis is line 15 of app description for Discord.\nThis is line 16 of app description for Discord.\nThis is line 17 of app description for Discord.\nThis is line 18 of app description for Discord.\nThis is line 19 of app description for Discord.\nThis is line 20 of app description for Discord.",
+    "size": 95,
+    "reviews": "55k",
+    "ratingAvg": 4.4,
+    "downloads": "11M",
     "ratings": [
-      { "name": "1 star", "count": 1600000 },
-      { "name": "2 star", "count": 2400000 },
-      { "name": "3 star", "count": 5000000 },
-      { "name": "4 star", "count": 9000000 },
-      { "name": "5 star", "count": 36000000 }
+      { "name": "1 star", "count": 15 },
+      { "name": "2 star", "count": 15 },
+      { "name": "3 star", "count": 25 },
+      { "name": "4 star", "count": 75 },
+      { "name": "5 star", "count": 250 }
     ]
   },
   {
     "id": 18,
-    "image": "https://play-lh.googleusercontent.com/Gq9yJeED3DUm6eqB5Lb6MNRQZb6ECf_8RQSY1MbMZ0y5ldxQdJf5CjOZJm5YvTzG4Q=s256",
-    "title": "Amazon Shopping",
-    "companyName": "Amazon Mobile LLC",
-    "description": "Amazon makes online shopping easy.\nBrowse millions of items anytime.\nFilter by category, price, or reviews.\nTrack orders and deliveries easily.\nAccess exclusive Prime deals.\nAdd items to wishlist instantly.\nScan barcodes to find products.\nSecure payment with multiple options.\n24/7 customer service available.\nShop smarter and save more daily.",
-    "size": 130,
-    "reviews": 160000000,
-    "ratingAvg": 4.5,
-    "downloads": 5000000000,
+    "image": "https://i.ibb.co.com/NgtZ5GXk/images-3.png",
+    "title": "Evernote",
+    "companyName": "Evernote Corporation",
+    "description": "This is line 1 of app description for Evernote.\nThis is line 2 of app description for Evernote.\nThis is line 3 of app description for Evernote.\nThis is line 4 of app description for Evernote.\nThis is line 5 of app description for Evernote.\nThis is line 6 of app description for Evernote.\nThis is line 7 of app description for Evernote.\nThis is line 8 of app description for Evernote.\nThis is line 9 of app description for Evernote.\nThis is line 10 of app description for Evernote.\nThis is line 11 of app description for Evernote.\nThis is line 12 of app description for Evernote.\nThis is line 13 of app description for Evernote.\nThis is line 14 of app description for Evernote.\nThis is line 15 of app description for Evernote.\nThis is line 16 of app description for Evernote.\nThis is line 17 of app description for Evernote.\nThis is line 18 of app description for Evernote.\nThis is line 19 of app description for Evernote.\nThis is line 20 of app description for Evernote.",
+    "size": 70,
+    "reviews": "35k",
+    "ratingAvg": 4.2,
+    "downloads": "6M",
     "ratings": [
-      { "name": "1 star", "count": 2000000 },
-      { "name": "2 star", "count": 3000000 },
-      { "name": "3 star", "count": 7000000 },
-      { "name": "4 star", "count": 15000000 },
-      { "name": "5 star", "count": 75000000 }
+      { "name": "1 star", "count": 10 },
+      { "name": "2 star", "count": 10 },
+      { "name": "3 star", "count": 20 },
+      { "name": "4 star", "count": 50 },
+      { "name": "5 star", "count": 150 }
     ]
   },
   {
     "id": 19,
-    "image": "https://play-lh.googleusercontent.com/3B9wDn8Vdxz4dZCz5emkYF0b8Klm6q7zQ6-KZTkVDFpsKjDkKKxjqGdfxPSxNY_E2w=s256",
-    "title": "Duolingo",
-    "companyName": "Duolingo",
-    "description": "Learn new languages with Duolingo.\nPractice English, Spanish, French, and more.\nFun mini lessons improve your memory.\nEarn points and unlock levels.\nTrack your daily progress.\nEngage with friendly competition.\nGrammar tips and quizzes included.\nOffline lessons supported.\nPerfect for beginners and advanced learners.\nFree, interactive, and effective learning app.",
-    "size": 60,
-    "reviews": 85000000,
-    "ratingAvg": 4.7,
-    "downloads": 500000000,
+    "image": "https://i.ibb.co.com/xKQ9WjRv/trello.webp",
+    "title": "Trello",
+    "companyName": "Atlassian",
+    "description": "This is line 1 of app description for Trello.\nThis is line 2 of app description for Trello.\nThis is line 3 of app description for Trello.\nThis is line 4 of app description for Trello.\nThis is line 5 of app description for Trello.\nThis is line 6 of app description for Trello.\nThis is line 7 of app description for Trello.\nThis is line 8 of app description for Trello.\nThis is line 9 of app description for Trello.\nThis is line 10 of app description for Trello.\nThis is line 11 of app description for Trello.\nThis is line 12 of app description for Trello.\nThis is line 13 of app description for Trello.\nThis is line 14 of app description for Trello.\nThis is line 15 of app description for Trello.\nThis is line 16 of app description for Trello.\nThis is line 17 of app description for Trello.\nThis is line 18 of app description for Trello.\nThis is line 19 of app description for Trello.\nThis is line 20 of app description for Trello.",
+    "size": 65,
+    "reviews": "30k",
+    "ratingAvg": 4.3,
+    "downloads": "5M",
     "ratings": [
-      { "name": "1 star", "count": 600000 },
-      { "name": "2 star", "count": 900000 },
-      { "name": "3 star", "count": 1800000 },
-      { "name": "4 star", "count": 4000000 },
-      { "name": "5 star", "count": 32000000 }
+      { "name": "1 star", "count": 10 },
+      { "name": "2 star", "count": 10 },
+      { "name": "3 star", "count": 15 },
+      { "name": "4 star", "count": 55 },
+      { "name": "5 star", "count": 150 }
     ]
   },
   {
     "id": 20,
-    "image": "https://play-lh.googleusercontent.com/7pCfqv5hY3AVm_rqF4ElL8KDlL4uV1dzbOZ7WdlqE9M5VHxKUpqHvlb3e2vjqjzQ0w=s256",
-    "title": "Uber",
-    "companyName": "Uber Technologies, Inc.",
-    "description": "Uber helps you reach destinations fast.\nBook rides in seconds anywhere.\nChoose cars by comfort and price.\nTrack your driver in real time.\nPay securely with card or cash.\nRate trips and drivers easily.\nShare trip details with family.\nAccess Uber Eats for food delivery.\nSchedule rides in advance.\nConvenient travel for everyone, anytime.",
-    "size": 110,
-    "reviews": 115000000,
-    "ratingAvg": 4.4,
-    "downloads": 1000000000,
+    "image": "https://i.ibb.co.com/LhxBT159/360-F-1289644959-Ri-EQCZHMyzr-J9of-Pp-Yo-JWIy-Ll-Lo-F0owh.jpg",
+    "title": "Slack",
+    "companyName": "Slack Technologies",
+    "description": "This is line 1 of app description for Slack.\nThis is line 2 of app description for Slack.\nThis is line 3 of app description for Slack.\nThis is line 4 of app description for Slack.\nThis is line 5 of app description for Slack.\nThis is line 6 of app description for Slack.\nThis is line 7 of app description for Slack.\nThis is line 8 of app description for Slack.\nThis is line 9 of app description for Slack.\nThis is line 10 of app description for Slack.\nThis is line 11 of app description for Slack.\nThis is line 12 of app description for Slack.\nThis is line 13 of app description for Slack.\nThis is line 14 of app description for Slack.\nThis is line 15 of app description for Slack.\nThis is line 16 of app description for Slack.\nThis is line 17 of app description for Slack.\nThis is line 18 of app description for Slack.\nThis is line 19 of app description for Slack.\nThis is line 20 of app description for Slack.",
+    "size": 75,
+    "reviews": "40k",
+    "ratingAvg": 4.5,
+    "downloads": "7M",
     "ratings": [
-      { "name": "1 star", "count": 1900000 },
-      { "name": "2 star", "count": 2400000 },
-      { "name": "3 star", "count": 6000000 },
-      { "name": "4 star", "count": 10000000 },
-      { "name": "5 star", "count": 42000000 }
+      { "name": "1 star", "count": 5 },
+      { "name": "2 star", "count": 5 },
+      { "name": "3 star", "count": 15 },
+      { "name": "4 star", "count": 70 },
+      { "name": "5 star", "count": 200 }
     ]
   }
 ]

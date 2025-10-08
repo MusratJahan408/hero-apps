@@ -24,13 +24,17 @@ const HeroSection = () => {
           make an impact.
         </p>
         <div className=" my-10">
-          <Link to="https://play.google.com/store/apps?hl=en" className="mr-4">
+          <Link
+            to="https://play.google.com/store/apps?hl=en"
+            target="_blank"
+            className="mr-4"
+          >
             <button className="btn py-6">
               <img className="w-8 h-8" src={playStoreImg} alt="" />
               <span className="font-semibold">Google Play</span>
             </button>
           </Link>
-          <Link to="https://www.apple.com/app-store/">
+          <Link to="https://www.apple.com/app-store/" target="_blank">
             <button className="btn py-6">
               <img className="w-8 h-8" src={appImg} alt="" />
               <span className="font-semibold">App Store</span>
