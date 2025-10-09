@@ -64,6 +64,7 @@ const Navbar = () => {
         <div className="navbar-end">
           <Link
             to="https://github.com/"
+            target="_blank"
             className="btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2] px-4 py-3"
           >
             <img className="w-5 h-5" src={githubImg} alt="" />

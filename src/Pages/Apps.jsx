@@ -1,9 +1,26 @@
-import React from "react";
+import React, { useState } from "react";
 import useApps from "../Hooks/useApps";
 import AppsCard from "../Components/AppsCard";
+import logoImg from "../assets/logo.png";
+import errorImg from "../assets/App-Error.png";
 
 const Apps = () => {
-  const { apps } = useApps();
+  const { apps, loading } = useApps();
+  const [search, setSearch] = useState("");
+  const term = search.trim().toLocaleLowerCase();
+  const searchApps = term
+    ? apps.filter((app) => app.title.toLocaleLowerCase().includes(term))
+    : apps;
+  if (loading) {
+    return (
+      <div className="flex justify-center items-center min-h-screen">
+        <h1 className="text-3xl md:text-6xl font-bold flex">
+          L<img className="w-14 h-14" src={logoImg} alt="" />
+          ODING
+        </h1>
+      </div>
+    );
+  }
   return (
     <div className="mb-10 md:mb-20">
       <div className="text-center mt-10 md:mt-20">
@@ -13,7 +30,9 @@ const Apps = () => {
         </p>
       </div>
       <div className="container mx-auto flex justify-between items-center mt-10">
-        <h1 className="text-2xl font-semibold">(132) Apps Found</h1>
+        <h1 className="text-2xl font-semibold">
+          ({searchApps.length}) Apps Found
+        </h1>
         <div>
           <label className="input">
             <svg
@@ -32,14 +51,44 @@ const Apps = () => {
                 <path d="m21 21-4.3-4.3"></path>
               </g>
             </svg>
-            <input type="search" required placeholder="Search Apps" />
+            <input
+              value={search}
+              onChange={(e) => setSearch(e.target.value)}
+              type="search"
+              required
+              placeholder="Search Apps"
+            />
           </label>
         </div>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mt-10 container mx-auto">
-        {apps.map((app) => (
-          <AppsCard key={app.id} app={app}></AppsCard>
-        ))}
+        {searchApps.length > 0 ? (
+          searchApps.map((app) => <AppsCard key={app.id} app={app}></AppsCard>)
+        ) : (
+          <div className="flex flex-col justify-center col-span-full">
+            <img
+              className="w-[400px] h-[400px] mx-auto mt-10 md:mt-20"
+              src={errorImg}
+              alt=""
+            />
+            <h1 className="text-3xl md:text-6xl font-bold text-center mt-5">
+              OPPS!! APP NOT FOUND
+            </h1>
+            <p className="text-[#627382] mt-2 text-center">
+              The App you are requesting is not found on our system. please try
+              another apps
+            </p>
+
+            <div className="flex justify-center mt-10 mb-10 md:mb-20">
+              <button
+                onClick={() => setSearch("")}
+                className="btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white font-semibold"
+              >
+                Go Back!
+              </button>
+            </div>
+          </div>
+        )}
       </div>
     </div>
   );
