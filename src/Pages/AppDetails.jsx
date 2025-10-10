@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { useParams } from "react-router";
+import { Link, useParams } from "react-router";
 import useApps from "../Hooks/useApps";
 import logoImg from "../assets/logo.png";
 import downloadImg from "../assets/icon-downloads.png";
@@ -49,7 +49,19 @@ const AppDetails = () => {
   const app = apps.find((a) => a.id === parseInt(id));
 
   if (!app) {
-    return <h1>App Not Found</h1>;
+    return (
+      <div className="flex flex-col justify-center items-center min-h-screen">
+        <h1 className="text-2xl md:text-4xl font-bold mb-5">
+          App Is Not Found
+        </h1>
+        <Link
+          to="/"
+          className="btn text-white bg-gradient-to-r from-[#632EE3] to-[#9F62F2] px-4 py-3"
+        >
+          <span>Go Back!</span>
+        </Link>
+      </div>
+    );
   }
 
   const {

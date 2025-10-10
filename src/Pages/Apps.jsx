@@ -15,7 +15,7 @@ const Apps = () => {
     return (
       <div className="flex justify-center items-center min-h-screen">
         <h1 className="text-3xl md:text-6xl font-bold flex">
-          L<img className="w-14 h-14" src={logoImg} alt="" />
+          L<img className="w-14 h-14 animate-spin" src={logoImg} alt="" />
           ODING
         </h1>
       </div>
