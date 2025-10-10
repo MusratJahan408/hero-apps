@@ -6,9 +6,8 @@ import useApps from "../Hooks/useApps";
 import logoImg from "../assets/logo.png";
 
 const Home = () => {
-  const { apps, loading, error } = useApps();
+  const { apps, loading } = useApps();
 
-  const trendingApps = apps.slice(0, 8);
   if (loading) {
     return (
       <div className="flex justify-center items-center min-h-screen">
@@ -19,6 +18,7 @@ const Home = () => {
       </div>
     );
   }
+  const trendingApps = apps.slice(0, 8);
   return (
     <div>
       <HeroSection></HeroSection>

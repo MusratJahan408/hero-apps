@@ -29,8 +29,8 @@ const Apps = () => {
           Explore All Apps on the Market developed by us. We code for Millions
         </p>
       </div>
-      <div className="container mx-auto flex justify-between items-center mt-10">
-        <h1 className="text-2xl font-semibold">
+      <div className="container mx-auto flex flex-col md:flex-row justify-between items-center mt-10">
+        <h1 className="text-2xl font-semibold mb-5 md:mb-0">
           ({searchApps.length}) Apps Found
         </h1>
         <div>

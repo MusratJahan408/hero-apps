@@ -1,16 +1,6 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Project Name: Hero Apps
+Description:
+১।লগোতে ক্লিক করলে হোম পেজে দেখাবে। contribute বাটনে ক্লিক করলে আমার গিটহাব প্রোফাইলে যেতে পারবে।Google Play বাটনে ক্লিক করলে Google Play App এ যেতে পারবে। App store বাটনে ক্লিক করলে App store App এ যেতে পারবে।
+২।হোম পেজে কিছু কার্ড আছে বাকি কার্ড দেখার জন্য show all বাটনে ক্লিক করলে সকল কার্ড দেখাবে যা apps পেজ থেকে দেখাবে ।এমনকি Apps পেজে ক্লিক করলেও সকল কার্ড দেখাবে।
+৩।Apps পেজে কয়টা apps আছে তার count দেখাবে। search থেকে app খুজে বের করা যাবে।যেকোনো app এ ক্লিক করলে তার বিস্তারিত দেখতে পারবে সাথে তার গ্রাফ এবং তার সম্পর্কে বর্ণনা।install now বাটনে ক্লিক করলে app install হবে সাথে installation পেজে add হবে।ওই app আর install করা যাবে না।
+৪।installation পেজ থেকে sort করা যাবে downloads দিয়ে। low-high আবার high-low, sort করা যাবে।uninstall এ ক্লিক করলে app টা uninstall হয়ে যাবে।

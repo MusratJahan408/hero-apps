@@ -13,8 +13,9 @@ export const updateList = (app) => {
   try {
     const isInstall = install.some((i) => i.id === app.id);
     if (isInstall) {
-      return alert("already exist");
+      return alert("all ready exist");
     }
+
     const updateInstall = [...install, app];
     localStorage.setItem("install", JSON.stringify(updateInstall));
   } catch (err) {

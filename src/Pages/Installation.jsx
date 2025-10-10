@@ -1,16 +1,19 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import downloadImg from "../assets/icon-downloads.png";
 import ratingsImg from "../assets/icon-ratings.png";
+import { loadInstall, removeInstall } from "../Utilities/localStorage";
+import { toast } from "react-toastify";
 const Installation = () => {
-  const [install, setInstall] = useState([]);
+  const [install, setInstall] = useState(() => loadInstall());
   const [sortOrder, setSortOrder] = useState("none");
-  console.log(install);
-  useEffect(() => {
-    const savedList = JSON.parse(localStorage.getItem("install"));
-    if (savedList) {
-      setInstall(savedList);
-    }
-  }, []);
+
+  if (!install.length) {
+    return (
+      <div className="flex justify-center items-center min-h-screen">
+        <h1 className="text-2xl md:text-4xl font-bold ">No Data Available</h1>
+      </div>
+    );
+  }
 
   const cleanDownloads = (value) => {
     return parseInt(value) || 0;
@@ -30,11 +33,10 @@ const Installation = () => {
     }
   })();
 
-  const handleUninstall = (id) => {
-    const existingList = JSON.parse(localStorage.getItem("install"));
-    let updateList = existingList.filter((i) => i.id !== id);
-    setInstall(updateList);
-    localStorage.setItem("install", JSON.stringify(updateList));
+  const handleUninstall = (id, title) => {
+    removeInstall(id);
+    setInstall((prev) => prev.filter((i) => i.id !== id));
+    toast.success(`${title} uninstall from your device`);
   };
   return (
     <div className="container mx-auto mt-10 md:mt-20">
@@ -44,8 +46,8 @@ const Installation = () => {
           Explore All Trending Apps on the Market developed by us
         </p>
       </div>
-      <div className="flex justify-between items-center">
-        <h1 className="text-2xl font-semibold">
+      <div className="flex flex-col md:flex-row justify-between items-center">
+        <h1 className="text-2xl font-semibold mb-5 md:mb-0">
           {sortedItem.length} Apps Found
         </h1>
 
@@ -63,17 +65,17 @@ const Installation = () => {
       </div>
       <div>
         {sortedItem.map((i) => (
-          <div className="flex justify-between bg-white rounded shadow-md p-4 items-center my-4">
+          <div className="flex justify-between bg-white rounded shadow-md p-4 items-center my-4 mx-3 md:mx-0">
             <div className=" flex gap-4 items-center">
               <div>
                 <img
-                  className="w-20 h-20 rounded-lg bg-[#D9D9D9] "
+                  className="w-10 md:w-20 h-10 md:h-20 rounded-lg bg-[#D9D9D9] "
                   src={i.image}
                   alt=""
                 />
               </div>
               <div>
-                <h1 className="text-2xl font-medium">{i.title}</h1>
+                <h1 className="md:text-2xl font-medium">{i.title}</h1>
                 <div className="flex gap-4 mt-4">
                   <div className="flex gap-2 items-center">
                     <img className="w-4 h-4" src={downloadImg} alt="" />
@@ -91,7 +93,7 @@ const Installation = () => {
             </div>
             <div>
               <button
-                onClick={() => handleUninstall(i.id)}
+                onClick={() => handleUninstall(i.id, i.title)}
                 className="btn bg-[#00D390] text-white rounded font-semibold"
               >
                 Uninstall
