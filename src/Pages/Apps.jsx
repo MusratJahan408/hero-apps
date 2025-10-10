@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import useApps from "../Hooks/useApps";
 import AppsCard from "../Components/AppsCard";
 import logoImg from "../assets/logo.png";
@@ -7,11 +7,27 @@ import errorImg from "../assets/App-Error.png";
 const Apps = () => {
   const { apps, loading } = useApps();
   const [search, setSearch] = useState("");
-  const term = search.trim().toLocaleLowerCase();
-  const searchApps = term
-    ? apps.filter((app) => app.title.toLocaleLowerCase().includes(term))
-    : apps;
-  if (loading) {
+  const [searching, setSearching] = useState(false);
+  const [filteredApps, setFilteredApps] = useState([]);
+
+  useEffect(() => {
+    if (search.trim() === "") {
+      setFilteredApps(apps);
+      return;
+    }
+    setSearching(true);
+    const timer = setTimeout(() => {
+      const term = search.trim().toLocaleLowerCase();
+      const searchApps = apps.filter((app) =>
+        app.title.toLocaleLowerCase().includes(term)
+      );
+      setFilteredApps(searchApps);
+      setSearching(false);
+    }, 1000);
+    return () => clearTimeout(timer);
+  }, [search, apps]);
+
+  if (loading || searching) {
     return (
       <div className="flex justify-center items-center min-h-screen">
         <h1 className="text-3xl md:text-6xl font-bold flex">
@@ -31,7 +47,7 @@ const Apps = () => {
       </div>
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-center mt-10">
         <h1 className="text-2xl font-semibold mb-5 md:mb-0">
-          ({searchApps.length}) Apps Found
+          ({filteredApps.length}) Apps Found
         </h1>
         <div>
           <label className="input">
@@ -62,8 +78,10 @@ const Apps = () => {
         </div>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mt-10 container mx-auto">
-        {searchApps.length > 0 ? (
-          searchApps.map((app) => <AppsCard key={app.id} app={app}></AppsCard>)
+        {filteredApps.length > 0 ? (
+          filteredApps.map((app) => (
+            <AppsCard key={app.id} app={app}></AppsCard>
+          ))
         ) : (
           <div className="flex flex-col justify-center col-span-full">
             <img

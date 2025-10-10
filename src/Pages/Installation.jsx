@@ -3,14 +3,23 @@ import downloadImg from "../assets/icon-downloads.png";
 import ratingsImg from "../assets/icon-ratings.png";
 import { loadInstall, removeInstall } from "../Utilities/localStorage";
 import { toast } from "react-toastify";
+import { Link } from "react-router";
 const Installation = () => {
   const [install, setInstall] = useState(() => loadInstall());
   const [sortOrder, setSortOrder] = useState("none");
 
   if (!install.length) {
     return (
-      <div className="flex justify-center items-center min-h-screen">
-        <h1 className="text-2xl md:text-4xl font-bold ">No Data Available</h1>
+      <div className="flex flex-col justify-center items-center min-h-screen">
+        <h1 className="text-2xl md:text-4xl font-bold mb-5">
+          No Data Available
+        </h1>
+        <Link
+          to="/"
+          className="btn text-white bg-gradient-to-r from-[#632EE3] to-[#9F62F2] px-4 py-3"
+        >
+          <span>Go Back!</span>
+        </Link>
       </div>
     );
   }
